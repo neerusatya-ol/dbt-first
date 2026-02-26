@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: demo # Name of the source
+    database: demo # Optional: database name
+    schema: demo_schema # Schema name in your warehouse
+    tables:
+      - name: bike
+      - name: weather
+
+        
